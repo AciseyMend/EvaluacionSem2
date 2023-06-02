@@ -61,6 +61,7 @@ nav > a:hover {
     transform: scale(1.1); /* Aumenta el tamaño de la imagen en un 10% */
     border: 2px dashed blue; /* Establece un borde punteado de color azul */
   }
+
   .caja {
     
     display: flex;
@@ -74,7 +75,18 @@ nav > a:hover {
     margin: 10px;
       
   }
+.lista-favoritos li:first-child::before {
+  content: "\f005";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 5px;
+}
 
+/* Estilos adicionales para el icono */
+.lista-favoritos li:first-child::before {
+  color: #ff1111; /* Color dorado para el icono */
+  font-size: 16px;
+}
   
   table {
     width: 100%;
