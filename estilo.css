@@ -57,6 +57,10 @@ nav > a:hover {
     margin-right: auto;
     border: 2px solid rgb(224, 10, 232);
   }
+  img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen en un 10% */
+    border: 2px dashed blue; /* Establece un borde punteado de color azul */
+  }
   .caja {
     
     display: flex;
